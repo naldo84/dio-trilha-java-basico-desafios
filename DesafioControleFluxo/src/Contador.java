@@ -22,7 +22,7 @@ public class Contador {
      * @param parametroUm   - o primeiro parâmetro do método
      * @param parametroDois - o segundo parâmetro do método
      * @
-     * @throws   ParametrosInvalidosException - lançada se o segundo parâmetro for
+     * @throws   ParametrosInvalidosException - lançada se o primeiro parâmetro for
      *           maior que o primeiro
      */
     public static void main(String[] args) {
