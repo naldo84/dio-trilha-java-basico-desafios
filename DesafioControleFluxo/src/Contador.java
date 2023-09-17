@@ -23,7 +23,7 @@ public class Contador {
      * @param parametroDois - o segundo parâmetro do método
      * @
      * @throws   ParametrosInvalidosException - lançada se o primeiro parâmetro for
-     *           maior que o primeiro
+     *           maior que o segundo
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
