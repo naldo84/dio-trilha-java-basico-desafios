@@ -1,5 +1,7 @@
 spring:
-  profiles: dev
+  config:
+    activate:
+      on-profile: dev
   datasource:
     url: jdbc:h2:mem:sd22023
     username: sdw2023
@@ -19,3 +21,4 @@ h2:
     settings:
       trace: false
       web-allow-others: false
+
