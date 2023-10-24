@@ -1,0 +1,12 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+  datasource:
+    url: jdbc:postgresql://${}:${}/${}
+    username: postgres
+    password: ${}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
